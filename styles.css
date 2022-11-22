@@ -1,11 +1,18 @@
 body {
   background-color: azure;
 }
+
 h1 {
   color: slategray;
   font-family: Arial;
 }
+
 p {
+  color: slategray;
+  font-family: Arial;
+}
+
+ul {
   color: slategray;
   font-family: Arial;
 }
