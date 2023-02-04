@@ -16,3 +16,23 @@ ul {
   color: darkslategray;
   font-family: Arial;
 }
+
+/* unvisited link */
+a:link {
+  color: darkgray;
+}
+
+/* visited link */
+a:visited {
+  color: dimgray;
+}
+
+/* mouse over link */
+a:hover {
+  color: gray;
+}
+
+/* selected link */
+a:active {
+  color: gray;
+}
