@@ -4,17 +4,17 @@ body {
 
 h1 {
   color: darkslategray;
-  font-family: "Lucida Console";
+  font-family: Arial;
 }
 
 p {
   color: darkslategray;
-  font-family: "Lucida Console";
+  font-family: Arial;
 }
 
 ul {
   color: darkslategray;
-  font-family: "Lucida Console";
+  font-family: Arial;
 }
 
 /* unvisited link */
