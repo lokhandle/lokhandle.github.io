@@ -46,3 +46,8 @@ a:active {
 div.a {
   text-indent: 50px;
 }
+
+/* list indent */
+.customIndent {
+  padding-left: 50px;
+}
