@@ -36,3 +36,8 @@ a:hover {
 a:active {
   color: gray;
 }
+
+/* adding indent */
+div.a {
+  text-indent: 50px;
+}
