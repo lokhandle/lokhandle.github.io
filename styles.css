@@ -51,3 +51,9 @@ a:active {
 .customIndent {
   padding-left: 80px;
 }
+
+/* decreasing bullet/text space */
+li span {
+  position: relative;
+  left: -10px;
+}
