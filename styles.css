@@ -43,7 +43,7 @@ a:active {
 }
 
 /* adding indent */
-a {
+.fiftypxindent {
   text-indent: 50px;
 }
 
