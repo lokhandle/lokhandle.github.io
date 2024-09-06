@@ -31,7 +31,7 @@
 
         p, ul {
             margin: 10px 0;
-            font-size: 1.0em;
+            font-size: 0.9em;
         }
 
         a {
@@ -50,6 +50,9 @@
             margin: 20px auto;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            height: auto;
+            max-width: 400px;
         }
 
         ul {
@@ -67,6 +70,38 @@
         .contact-links li {
             margin: 5px 0;
         }
+
+        /* Responsive design for mobile devices */
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+                margin-left: 5%;
+                padding: 15px;
+            }
+
+            h2 {
+                font-size: 1.5em;
+                text-align: center;
+            }
+
+            p, ul {
+                font-size: 1em;
+                text-align: justify;
+            }
+
+            ul {
+                padding-left: 15px;
+            }
+
+            .contact-links ul {
+                padding-left: 15px;
+            }
+
+            .profile-img {
+                margin: 10px auto;
+                max-width: 300px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -74,13 +109,13 @@
         <h2>Anagha Lokhande</h2>
         <p>I'm a medical student at The Warren Alpert Medical School of Brown University and a research assistant at the <a href="https://ophai.hms.harvard.edu/team/anagha-lokhande/">Harvard Ophthalmology Artificial Intelligence Lab</a>.</p>
         
-        <img src="43_headshot.jpg" alt="Anagha Lokhande headshot" width="400" height="300" class="profile-img">
+        <img src="43_headshot.jpg" alt="Anagha Lokhande headshot" class="profile-img">
         
         <p>My interests include:</p>
         <ul>
-            <li>machine learning for ophthalmology and vision science</li>
-            <li>health economics</li>
-            <li>global health</li>
+            <li>Machine learning for ophthalmology and vision science</li>
+            <li>Health economics</li>
+            <li>Global health</li>
         </ul>
 
         <p>Reach out or peruse my publications and prior experience:</p>
